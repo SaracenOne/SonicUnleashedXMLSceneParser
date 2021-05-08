@@ -11,7 +11,7 @@ using UnityEngine;
 // TODO:
 // Multiset Param
 
-public class SonicUnleasedXMLSceneParserScriptableWizard : UnityEditor.ScriptableWizard
+public class SonicUnleashedXMLSceneParserScriptableWizard : UnityEditor.ScriptableWizard
 {
     public List<TextAsset> textAssets = new List<TextAsset>();
 
@@ -325,9 +325,9 @@ public class SonicUnleasedXMLSceneParserScriptableWizard : UnityEditor.Scriptabl
         }
     }
 
-    [UnityEditor.MenuItem("Tools/Sonic Unleased XML Scene Parser/Parse XML File")]
+    [UnityEditor.MenuItem("Tools/Sonic Unleashed XML Scene Parser/Parse XML File")]
     static void CreateWizard() {
-        UnityEditor.ScriptableWizard.DisplayWizard<SonicUnleasedXMLSceneParserScriptableWizard>("Parse XML File", "Apply");
+        UnityEditor.ScriptableWizard.DisplayWizard<SonicUnleashedXMLSceneParserScriptableWizard>("Parse XML File", "Apply");
     }
 
     void OnWizardCreate() {
